@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="start"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/_6sdp"
+    android:paddingBottom="@dimen/_4sdp"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/_6sdp"
+        >
+
+    <ImageView
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="match_parent"
+        android:src="@drawable/baseline_person_24"/>
+
+    <TextView
+        android:id="@+id/messageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_chat_received"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:text="Hello!" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/dateAndTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_3sdp"
+        android:layout_marginStart="@dimen/_33sdp"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/_9ssp"
+        android:text="19:20 27 AUG"/>
+
+</LinearLayout>

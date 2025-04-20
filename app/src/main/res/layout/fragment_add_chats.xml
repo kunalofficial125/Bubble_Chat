@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="@dimen/_16sdp"
+    android:id="@+id/main"
+    android:background="@color/boxStrokeColor"
+    tools:context=".fragments.AddChats">
+
+    <!-- Back Button -->
+    <ImageView
+        android:id="@+id/btnBack"
+        android:layout_width="@dimen/_24sdp"
+        android:layout_height="@dimen/_24sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:src="@drawable/baseline_arrow_back_ios_24"
+        android:contentDescription="Back"
+        android:layout_marginBottom="@dimen/_16sdp" />
+
+    <!-- SearchView -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        app:strokeColor="@color/gray"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="match_parent"
+                android:padding="@dimen/_2sdp"
+                android:paddingStart="@dimen/_7sdp"
+                android:background="@color/darkGray"
+                android:src="@drawable/baseline_search_24"/>
+
+            <EditText
+                android:id="@+id/searchView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_48sdp"
+                android:hint="Search Username or email"
+                android:paddingStart="@dimen/_10sdp"
+                android:maxLines="1"
+                android:inputType="textPersonName"
+                android:textColor="@color/white"
+                android:singleLine="true"
+                android:imeOptions="actionSearch"
+                android:textColorHint="@color/gray"
+                android:background="@color/darkGray"
+                android:iconifiedByDefault="false"/>
+
+        </LinearLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Heading -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grow your network"
+        android:textSize="@dimen/_16ssp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="@dimen/_8sdp" />
+
+    <!-- RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recommendationRV"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:paddingBottom="@dimen/_16sdp" />
+
+
+    <TextView
+        android:id="@+id/noChatsTxtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🥺\nNo User Found"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_marginTop="@dimen/_150sdp"
+        android:layout_gravity="center"
+        android:alpha="0.3"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_24ssp"/>
+
+
+</LinearLayout>

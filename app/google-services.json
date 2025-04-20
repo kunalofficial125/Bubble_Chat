@@ -1,0 +1,187 @@
+{
+  "project_info": {
+    "project_number": "241442103462",
+    "firebase_url": "https://the-carepal-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "the-carepal",
+    "storage_bucket": "the-carepal.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241442103462:android:6e7c96ff227868aa811467",
+        "android_client_info": {
+          "package_name": "com.carepal.carepalnurses"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "241442103462-ik0ik9kn9jpetc156pfqp4mc043gtv15.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.carepal.carepalnurses",
+            "certificate_hash": "ff41431c71c9c620f368ce04c456fd2fa508e057"
+          }
+        },
+        {
+          "client_id": "241442103462-0sb22bp8h4km23qe41io2e9509m22osu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1ONXTyuoukwYHp8aH9ij6N1EbBiQ4gyU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "241442103462-0sb22bp8h4km23qe41io2e9509m22osu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "241442103462-0bvaq3ql3ktdhubl8pped4o39e27hhud.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "developer.TheCarePal"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241442103462:android:64370e20a7401c18811467",
+        "android_client_info": {
+          "package_name": "com.carepal.thecarepal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "241442103462-74utgpo452t13dtpl162t2toji0m1tue.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.carepal.thecarepal",
+            "certificate_hash": "7c69f1868fa34e7e2799458b77544b9219e70fa4"
+          }
+        },
+        {
+          "client_id": "241442103462-9utnll9qgon3a7gpa5kchop7cp9i7q5b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.carepal.thecarepal",
+            "certificate_hash": "ff41431c71c9c620f368ce04c456fd2fa508e057"
+          }
+        },
+        {
+          "client_id": "241442103462-0sb22bp8h4km23qe41io2e9509m22osu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1ONXTyuoukwYHp8aH9ij6N1EbBiQ4gyU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "241442103462-0sb22bp8h4km23qe41io2e9509m22osu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "241442103462-0bvaq3ql3ktdhubl8pped4o39e27hhud.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "developer.TheCarePal"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241442103462:android:9825bf75d1cc5c17811467",
+        "android_client_info": {
+          "package_name": "com.example.learnfb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "241442103462-0sb22bp8h4km23qe41io2e9509m22osu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1ONXTyuoukwYHp8aH9ij6N1EbBiQ4gyU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "241442103462-0sb22bp8h4km23qe41io2e9509m22osu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "241442103462-0bvaq3ql3ktdhubl8pped4o39e27hhud.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "developer.TheCarePal"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241442103462:android:d86951ccbc666180811467",
+        "android_client_info": {
+          "package_name": "com.vision.bubblechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "241442103462-abel3mgtkbekj730cm2jsvf3ajh1i7i1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vision.bubblechat",
+            "certificate_hash": "ff41431c71c9c620f368ce04c456fd2fa508e057"
+          }
+        },
+        {
+          "client_id": "241442103462-0sb22bp8h4km23qe41io2e9509m22osu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1ONXTyuoukwYHp8aH9ij6N1EbBiQ4gyU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "241442103462-0sb22bp8h4km23qe41io2e9509m22osu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "241442103462-0bvaq3ql3ktdhubl8pped4o39e27hhud.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "developer.TheCarePal"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
