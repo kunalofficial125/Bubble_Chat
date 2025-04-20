@@ -10,3 +10,5 @@ Home screen displaying recent and visited chats.
 Real-time chatting with users on the chat screen.
 Floating action button to start new chats.
 Search functionality to connect with friends by username or email.
+
+Video Preview Link -> https://drive.google.com/file/d/1mXixGRMC0I9mpf-kgUvA6uOOkr7U1JwC/view?usp=sharing
